@@ -83,9 +83,19 @@ namespace Clase_2___Ejercicio_1___Cuentas_bancarias
         {
             this.saldo += saldo;
         }
-        public void retirarSaldo(int saldo)
+        public bool retirarSaldo(int saldo)
         {
-            this.saldo -= saldo;
+            if (saldo <= this.saldo)
+            {
+                this.saldo -= saldo;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+            
         }
 
     }

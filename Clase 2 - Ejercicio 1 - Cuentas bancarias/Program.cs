@@ -68,22 +68,23 @@ namespace Clase_2___Ejercicio_1___Cuentas_bancarias
                         break;
 
                     case 3: //Retirar saldo
-                        double saldoActual = cliente1.getSaldo();
                         int retiro;
-                        
+                        bool retiroExitoso;
                         Console.WriteLine("Ingrese monto a retirar: ");
                         while (!int.TryParse(Console.ReadLine(), out retiro))
                         {
                             Console.WriteLine("Error.Ingrese monto a retirar: ");
                             Console.ReadLine();
                         }
-                        if (retiro > saldoActual)
+
+                        retiroExitoso = cliente1.retirarSaldo(retiro);
+                        if (!retiroExitoso)
                         {
                             Console.WriteLine($"No dispone de los fondos solicitados. Saldo: {cliente1.getSaldo()} ");
                             break;
                         }
                         else { 
-                        cliente1.retirarSaldo(retiro);
+                        
                             Console.WriteLine($"Retiro exitoso. Su saldo en cuenta es de {cliente1.getSaldo()}");
                         }
                         break;
