@@ -14,7 +14,7 @@ namespace Clase_2___Ejercicio_1___Cuentas_bancarias
             string usuario ="";
             string clave = "";
             int opcion=0;
-            Cliente cliente1 = new Cliente("Cristian", "Bonomo", 34501326, "cbonomo", "AdarleATOMOS123", 0001, 0.00);
+            Cliente cliente1 = new Cliente("Cristian", "Bonomo", 34501326, "cbonomo", "AdarleATOMOS123");
             //Pedir usuario y clave para loguearse
             //Login
 
@@ -22,27 +22,26 @@ namespace Clase_2___Ejercicio_1___Cuentas_bancarias
                 {
                 Console.WriteLine("Ingrese su usuario:");
                 usuario = Console.ReadLine();
-
                 Console.WriteLine("Ingrese su clave:");
                 clave = Console.ReadLine();
-
                  } ;
             //imprimimos por pantalla
                 Console.WriteLine("Login exitoso.");
                 Console.WriteLine($"Cliente: {cliente1.getNombre()} {cliente1.getApellido()}");
                 Console.WriteLine("----------------------------RESUMEN DE CUENTA------------------");
+                Console.WriteLine($"Cuenta Numero: {cliente1.getNroCuenta()}");
                 Console.WriteLine($"Saldo disponible: {cliente1.getSaldo()}");
 
             //Ciclo para repetir el menu hasta que el usuario decida salir
             while (opcion != 9)
             {
                 Console.WriteLine("----------------------------OPERACIONES------------------------");
-                Console.WriteLine("1.Consultar saldo.");
-                Console.WriteLine("2.Agregar saldo.");
-                Console.WriteLine("3.Retirar saldo.");
+                Console.WriteLine("1.Consulta de saldo.");
+                Console.WriteLine("2.Depósito.");
+                Console.WriteLine("3.Extracción.");
                 Console.WriteLine("9.Salir.");
                 Console.WriteLine("---------------------------------------------------------------");
-                Console.WriteLine("Ingrese una opcion: ");
+                Console.WriteLine("Ingrese una opción: ");
 
                 while (!int.TryParse(Console.ReadLine(), out opcion))
                 {
@@ -55,6 +54,7 @@ namespace Clase_2___Ejercicio_1___Cuentas_bancarias
                     case 1: //Consulta de saldo
                         Console.WriteLine($"Saldo:{cliente1.getSaldo()}");
                         break;
+
                     case 2: //Agregar saldo
                         int saldo;
                         Console.WriteLine("Ingrese monto a depositar: ");
@@ -64,7 +64,9 @@ namespace Clase_2___Ejercicio_1___Cuentas_bancarias
                             Console.ReadLine();
                         }
                         cliente1.agregarSaldo(saldo);
+                        Console.WriteLine($"Su nuevo saldo es de:{cliente1.getSaldo()} ");
                         break;
+
                     case 3: //Retirar saldo
                         double saldoActual = cliente1.getSaldo();
                         int retiro;
@@ -77,11 +79,12 @@ namespace Clase_2___Ejercicio_1___Cuentas_bancarias
                         }
                         if (retiro > saldoActual)
                         {
-                            Console.WriteLine("No dispone de los fondos solicitados.");
+                            Console.WriteLine($"No dispone de los fondos solicitados. Saldo: {cliente1.getSaldo()} ");
                             break;
                         }
                         else { 
                         cliente1.retirarSaldo(retiro);
+                            Console.WriteLine($"Retiro exitoso. Su saldo en cuenta es de {cliente1.getSaldo()}");
                         }
                         break;
                     default: //nada asignado

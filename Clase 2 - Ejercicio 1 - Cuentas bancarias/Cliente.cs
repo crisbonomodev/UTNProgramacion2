@@ -15,17 +15,22 @@ namespace Clase_2___Ejercicio_1___Cuentas_bancarias
         int dni;
         string usuario;
         string clave;
-        int numeroCuenta;
-        double saldo;
-        public Cliente(string nombre, string apellido, int dni, string usuario, string clave, int numeroCuenta, double saldo) {
+        static int numeroCuenta;
+        double saldo =0;
+
+        static Cliente()
+        {
+            Random rnd = new Random();
+            numeroCuenta = rnd.Next(100, 1000);
+            
+        }
+        public Cliente(string nombre, string apellido, int dni, string usuario, string clave) {
 
             this.nombre = nombre;
             this.apellido = apellido;
             this.dni = dni;
             this.usuario = usuario;
             this.clave = clave;
-            this.numeroCuenta = numeroCuenta;
-            this.saldo = saldo;
         }
         //getters
         public string getNombre() {
@@ -49,11 +54,11 @@ namespace Clase_2___Ejercicio_1___Cuentas_bancarias
         }
         public int getNroCuenta()
         {
-            return this.numeroCuenta;
+            return numeroCuenta;
         }
         public double getSaldo ()
         {
-            return this.saldo;
+            return saldo;
         }
 
         //setters
