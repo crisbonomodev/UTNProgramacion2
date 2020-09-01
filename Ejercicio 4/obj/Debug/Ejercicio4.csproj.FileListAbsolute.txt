@@ -1,0 +1,7 @@
+C:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio4\bin\Debug\Ejercicio4.exe.config
+C:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio4\bin\Debug\Ejercicio4.exe
+C:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio4\bin\Debug\Ejercicio4.pdb
+C:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio4\obj\Debug\Ejercicio4.csprojAssemblyReference.cache
+C:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio4\obj\Debug\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio4\obj\Debug\Ejercicio4.exe
+C:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio4\obj\Debug\Ejercicio4.pdb

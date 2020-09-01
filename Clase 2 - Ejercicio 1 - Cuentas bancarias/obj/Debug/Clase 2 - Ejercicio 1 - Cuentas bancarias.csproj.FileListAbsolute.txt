@@ -1,0 +1,7 @@
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Clase 2 - Ejercicio 1 - Cuentas bancarias\bin\Debug\Clase 2 - Ejercicio 1 - Cuentas bancarias.exe.config
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Clase 2 - Ejercicio 1 - Cuentas bancarias\bin\Debug\Clase 2 - Ejercicio 1 - Cuentas bancarias.exe
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Clase 2 - Ejercicio 1 - Cuentas bancarias\bin\Debug\Clase 2 - Ejercicio 1 - Cuentas bancarias.pdb
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Clase 2 - Ejercicio 1 - Cuentas bancarias\obj\Debug\Clase 2 - Ejercicio 1 - Cuentas bancarias.csprojAssemblyReference.cache
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Clase 2 - Ejercicio 1 - Cuentas bancarias\obj\Debug\Clase 2 - Ejercicio 1 - Cuentas bancarias.csproj.CoreCompileInputs.cache
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Clase 2 - Ejercicio 1 - Cuentas bancarias\obj\Debug\Clase 2 - Ejercicio 1 - Cuentas bancarias.exe
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Clase 2 - Ejercicio 1 - Cuentas bancarias\obj\Debug\Clase 2 - Ejercicio 1 - Cuentas bancarias.pdb

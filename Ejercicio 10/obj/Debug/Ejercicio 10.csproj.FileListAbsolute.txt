@@ -1,0 +1,7 @@
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio 10\bin\Debug\Ejercicio 10.exe.config
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio 10\bin\Debug\Ejercicio 10.exe
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio 10\bin\Debug\Ejercicio 10.pdb
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio 10\obj\Debug\Ejercicio 10.csprojAssemblyReference.cache
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio 10\obj\Debug\Ejercicio 10.csproj.CoreCompileInputs.cache
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio 10\obj\Debug\Ejercicio 10.exe
+D:\Cristian Bonomo\UTN\Programacion 2\Proyectos\GuiaEjercicios\Ejercicio 10\obj\Debug\Ejercicio 10.pdb
